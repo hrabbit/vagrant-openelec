@@ -6,7 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # The box to use
-  config.vm.box = "ubuntu-12.04-amd64"
+  config.vm.box = "precise64"
 
   # Network
   config.vm.network :public_network
