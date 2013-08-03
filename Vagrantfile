@@ -11,7 +11,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # If this box doesn't exist. We'll grab it first
   config.vm.box_url = "http://files.vagrantup.com/precise64.box"
 
-
   # Network
   config.vm.network :public_network
 
